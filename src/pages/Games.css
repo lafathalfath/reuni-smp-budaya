@@ -1,0 +1,49 @@
+.games-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.games-card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+.games-image{
+    width: 100%;
+}
+.games-title{
+    color: #8b0506;
+    font-weight: 500;
+    font-size: 18px;
+}
+.games-desc{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px){
+    .games-container{
+        gap: 5px;
+    }
+    .games-card-item{
+        width: 120px;
+        height: 220px;
+        border-radius: 20px;
+    }
+    .games-title{
+        font-size: 16px;
+    }
+    .games-desc{
+        font-size: 14px;
+    }
+}

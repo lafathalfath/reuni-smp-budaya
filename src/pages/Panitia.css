@@ -1,0 +1,61 @@
+.panitia{
+    padding: 20px;
+}
+.panitia-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 0 20px;
+}
+.panitia-card{
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.panitia-image{
+    width: 100%;
+}
+.panitia-card-title{
+    color: #8b0506;
+    margin: 10px 0;
+}
+.panitia-card-title>span{
+    font-weight: 700;
+}
+.panitia-number{
+    color: black;
+    font-weight: 500;
+}
+.panitia-number:hover{
+    color: blueviolet;
+}
+
+@media only screen and (max-width: 1000px){
+    .panitia-card{
+        width: 150px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .panitia-container{
+        padding: 0;
+        margin: 5px;
+        gap: 5px;
+    }
+    .panitia-card{
+        width: 120px ;
+        height: 220px;
+    }
+    .panitia-card-title, .panitia-number{
+        font-size: 14px;
+    }
+}

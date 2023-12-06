@@ -1,0 +1,164 @@
+.home{
+    /* background-color: #020181; */
+    padding: 1px;
+}
+.slider-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-1>div{
+    width: 90%;
+    padding: 20px 0;
+}
+.slider-nav{
+    color: #FFFF01;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.slider-nav-dummy{
+    color: #FFFF01;
+    font-size: 20px;
+    font-weight: 500;
+}
+.slider-2{
+    background-color: #8B0506;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 60px;
+}
+.slider-card-item{
+    background-color: white;
+    border-radius: 20px;
+    width: 200px !important;
+    height: 260px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-weight: 500;
+    
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    transform: translateX(-60%);
+}
+.slider-card-item a{
+    border: none;
+    color: black;
+    margin: 10px;
+}
+.slider-card-item:hover a:hover{
+    /* background-color: rgb(232, 251, 255); */
+    color: blueviolet;
+    margin: 10px;
+}
+.htm{
+    justify-content: center !important;
+    gap: 20px;
+}
+.slider-card-title{
+    color: #8B0506;
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+.slider-card-inner-text{
+    font-size: 14px;
+    color: black;
+}
+.slider-card-image{
+    width: 100%;
+}
+.pendaftaran{
+    text-align: center;
+}
+.pendaftaran>div{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.pendaftaran>a{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #8B0506;
+    font-size: 18px;
+    font-weight: 500;
+}
+.pendaftaran>a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+/* .nav-arrow-slider-2{
+    width: 20px !important;
+} */
+.slider-2 .slick-prev,
+.slider-2 .slick-next{
+    width: 20px !important;
+    /* transform: translate(30%, 0); */
+}
+
+.slider-2 .slick-prev::before,
+.slider-2 .slick-next::before{
+    width: 20px !important;
+    /* transform: translate(30%, 0); */
+}
+.slider-2>div{
+    position: relative;
+    /* border: 1px solid greenyellow; */
+}
+.slider-bawah{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    /* transform: translate(-7%, 0%); */
+}
+.slider-bawah .slick-track{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.slide-bawah .slick-slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider-inner-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .pendaftaran>div{
+        font-size: 14px;
+    }
+    .pendaftaran>a{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    .slider-card-item{
+        width: 165px !important;
+    }
+    .slider-card-title{
+        font-size: 14px;
+    }
+    .slider-card-inner-text{
+        font-size: 12px;
+    }
+}
+/* @media only screen and (max-width: 860px){
+    .slider-card-item{
+        width: 173px !important;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .slider-card-item{
+        width: 190px !important;
+    }
+} */
